@@ -1,0 +1,19 @@
+$grey-0: #121212;
+$grey-100: #272727;
+
+$global-font-family: 'Russo One', monospace;
+
+$global-secondary-background: $grey-0;
+$global-primary-background: $grey-100;
+$inverse-button-default-background: $grey-100;
+$inverse-button-default-hover-background: $grey-100;
+
+$button-text-transform: none;
+
+@import "../../vendor/uikit/uikit/src/scss/variables-theme.scss";
+@import "../../vendor/uikit/uikit/src/scss/mixins-theme.scss";
+@import "../../vendor/uikit/uikit/src/scss/uikit-theme.scss";
+
+.uk-button {
+    text-shadow:1px 0 3px black,0 1px 3px black,-1px 0 3px black,0 -1px 3px black;
+}
